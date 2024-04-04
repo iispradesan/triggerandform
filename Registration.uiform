@@ -1,0 +1,53 @@
+﻿{
+  "Metadata": {
+    "Id": "625343b9-3e06-4dd1-b4b0-669b1f2fd76b",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Registration",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Name",
+        "tableView": true,
+        "key": "fname",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Gender",
+        "optionsLabelPosition": "right",
+        "inline": false,
+        "tableView": false,
+        "values": [
+          {
+            "label": "Male",
+            "value": "m",
+            "shortcut": ""
+          },
+          {
+            "label": "Female",
+            "value": "f",
+            "shortcut": ""
+          }
+        ],
+        "key": "fgender",
+        "type": "radio",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
