@@ -41,12 +41,14 @@
         "input": true
       },
       {
-        "type": "button",
         "label": "Submit",
-        "key": "submit",
+        "action": "event",
+        "showValidations": false,
         "disableOnInvalid": true,
-        "input": true,
-        "tableView": false
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true
       }
     ]
   }
